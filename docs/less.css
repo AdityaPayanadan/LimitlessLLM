@@ -120,4 +120,5 @@ body .footer .content > div .image {
 
 .topnav {
   background-color: black;
+  overflow: hidden;
 }
