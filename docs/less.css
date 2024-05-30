@@ -119,6 +119,7 @@ body .footer .content > div .image {
 }
 
 .topnav {
-  background-color: black;
+  background-color: rgb(23, 22, 22);
   overflow: hidden;
+  max-height: 5%;
 }
