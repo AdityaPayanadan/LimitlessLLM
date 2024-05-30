@@ -117,3 +117,7 @@ body .footer .content > div .image {
     bottom: var(--distance, 10rem);
   }
 }
+
+.topnav {
+  background-color: black;
+}
