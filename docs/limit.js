@@ -39,7 +39,6 @@ $(window).load(function(){
 
     scrollFooter(window.scrollY, footerHeight);
 
-    // ao dar rolagem
     window.onscroll = function(){
         var scroll = window.scrollY;
 
