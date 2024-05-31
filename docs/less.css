@@ -119,13 +119,13 @@ body .footer .content > div .image {
     bottom: var(--distance, 10rem);
   }
 }
-
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-*/
+
 body {
   height: 100vh;
   display: grid;
