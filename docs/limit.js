@@ -6,7 +6,7 @@ function scrollFooter(scrollY, heightFooter)
     if(scrollY >= heightFooter)
     {
         $('footer').css({
-            'bottom' : '0px'
+            'bottom' : '300px'
         });
     }
     else
