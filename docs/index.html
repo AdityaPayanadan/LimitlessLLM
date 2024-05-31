@@ -5,64 +5,32 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'><link rel="stylesheet" href="less.css">
 <script src="limit.js"></script>
 
-<main>
-  <ul class='slider'>
-    <li class='item' style="background-image: url('https://cdn.mos.cms.futurecdn.net/dP3N4qnEZ4tCTCLq59iysd.jpg')">
-      <div class='content'>
-        <h2 class='title'>"aditya"</h2>
-        <p class='description'> lorem ipsum oui oui aidtya  </p>
-        <button>Read More</button>
-      </div>
-    </li>
-    <li class='item' style="background-image: url('https://media.licdn.com/dms/image/D4D03AQFU62iGevYQfA/profile-displayphoto-shrink_400_400/0/1716432864992?e=1722470400&v=beta&t=Px94-qbQrPAvI_3sOdBaqSxKQiFtSi1W8b80FeL_cgc')">
-      <div class='content'>
-        <h2 class='title'>"papadum"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button>Read More</button>
-      </div>
-    </li>
-    <li class='item' style="background-image: url('https://media.licdn.com/dms/image/D4D03AQFU62iGevYQfA/profile-displayphoto-shrink_400_400/0/1716432864992?e=1722470400&v=beta&t=Px94-qbQrPAvI_3sOdBaqSxKQiFtSi1W8b80FeL_cgc')">
-      <div class='content'>
-        <h2 class='title'>"giordan"</h2>
-        <p class='description'> nigron  </p>
-        <button>Read More</button>
-      </div>
-    </li>
-    <li class='item' style="background-image: url('https://media.licdn.com/dms/image/D4D03AQFU62iGevYQfA/profile-displayphoto-shrink_400_400/0/1716432864992?e=1722470400&v=beta&t=Px94-qbQrPAvI_3sOdBaqSxKQiFtSi1W8b80FeL_cgc')">
-      <div class='content'>
-        <h2 class='title'>"Last Trace Of Us"</h2>
-        <p class='description'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-        </p>
-        <button>Read More</button>
-      </div>
-    </li>
-    <li class='item' style="background-image: url('https://media.licdn.com/dms/image/D4D03AQFU62iGevYQfA/profile-displayphoto-shrink_400_400/0/1716432864992?e=1722470400&v=beta&t=Px94-qbQrPAvI_3sOdBaqSxKQiFtSi1W8b80FeL_cgc')">
-      <div class='content'>
-        <h2 class='title'>"Urban Decay"</h2>
-        <p class='description'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-        </p>
-        <button>Read More</button>
-      </div>
-    </li>
-    <li class='item' style="background-image: url('https://media.licdn.com/dms/image/D4D03AQFU62iGevYQfA/profile-displayphoto-shrink_400_400/0/1716432864992?e=1722470400&v=beta&t=Px94-qbQrPAvI_3sOdBaqSxKQiFtSi1W8b80FeL_cgc')">
-      <div class='content'>
-        <h2 class='title'>"The Migration"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button>Read More</button>
-      </div>
-    </li>
-  </ul>
-  <nav class='nav'>
-    <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
-    <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
-  </nav>
-</main>
-
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>                                                              
+<!-- This is a recreation of Unfold's (https://dribbble.com/unfold) parallax scene: https://cdn.dribbble.com/users/14268/screenshots/3275340/northface.gif -->
+<div class="scrollDist"></div>
+<div class="main">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <mask id="m">
+      <g class="cloud1">
+        <rect fill="#fff" width="100%" height="801" y="799" />
+        <image xlink:href="https://assets.codepen.io/721952/cloud1Mask.jpg" width="1200" height="800"/>
+      </g>
+    </mask>
+    
+    <image class="sky" xlink:href="https://assets.codepen.io/721952/sky.jpg"  width="1200" height="590" />
+    <image class="mountBg" xlink:href="https://assets.codepen.io/721952/mountBg.png" width="1200" height="800"/>    
+    <image class="mountMg" xlink:href="https://assets.codepen.io/721952/mountMg.png" width="1200" height="800"/>    
+    <image class="cloud2" xlink:href="https://assets.codepen.io/721952/cloud2.png" width="1200" height="800"/>    
+    <image class="mountFg" xlink:href="https://assets.codepen.io/721952/mountFg.png" width="1200" height="800"/>
+    <image class="cloud1" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="1200" height="800"/>
+    <image class="cloud3" xlink:href="https://assets.codepen.io/721952/cloud3.png" width="1200" height="800"/>
+    <text fill="#fff" x="350" y="200">EXPLORE</text>
+    <polyline class="arrow" fill="#fff" points="599,250 599,289 590,279 590,282 600,292 610,282 610,279 601,289 601,250" />
+    
+    <g mask="url(#m)">
+      <rect fill="#fff" width="100%" height="100%" />      
+      <text x="350" y="200" fill="#162a43">FURTHER</text>
+    </g>
+    
+    <rect id="arrowBtn" width="100" height="100" opacity="0" x="550" y="220" style="cursor:pointer"/>
+  </svg>
+</div>
