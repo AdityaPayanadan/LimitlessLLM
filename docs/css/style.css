@@ -1254,7 +1254,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 * + .box-pricing-price {
 	margin-top: 4px;
-	font-size: 40px;
+	font-size: 5px;
 }
 
 * + .box-pricing-time {
