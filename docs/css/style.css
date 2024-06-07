@@ -230,11 +230,11 @@ p [style*='max-width'] {
 	display: inline-block;
 }
 
-.brand .brand-logo-light {
+.brand-logo-light {
 	display: none;
 }
 
-.brand .brand-logo-dark {
+.brand-logo-dark {
 	display: block;
 }
 
@@ -11531,11 +11531,11 @@ html [class*='section-'].section-top-0 {
 	color: rgba(255, 255, 255, 0.3);
 }
 
-.context-dark .brand .brand-logo-dark, .bg-gray-dark .brand .brand-logo-dark, .bg-primary .brand .brand-logo-dark {
+.context-dark .brand-logo-dark, .bg-gray-dark .brand .brand-logo-dark, .bg-primary .brand .brand-logo-dark {
 	display: none;
 }
 
-.context-dark .brand .brand-logo-light, .bg-gray-dark .brand .brand-logo-light, .bg-primary .brand .brand-logo-light {
+.context-dark .brand-logo-light, .bg-gray-dark .brand .brand-logo-light, .bg-primary .brand .brand-logo-light {
 	display: block;
 }
 
