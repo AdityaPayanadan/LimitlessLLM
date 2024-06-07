@@ -228,7 +228,7 @@ p [style*='max-width'] {
 */
 .brand {
 	flex: 1;
-	padding: 20px;
+	padding: 5px;
 }
 
 .brand-logo-light {
