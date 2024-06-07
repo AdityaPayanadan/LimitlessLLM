@@ -12672,7 +12672,10 @@ html.tablet .ui-to-top {
 .rd-navbar-brand {
 	display: flex;
 	justify-content: space-between;
-	align-items: middle;
+}
+
+.brand h2 {
+	margin-top: 5%;
 }
 
 .rd-navbar-search {
