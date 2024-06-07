@@ -12669,7 +12669,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-brand {
-	display: inline-block;
+	display: flex;
 }
 
 .rd-navbar-search {
