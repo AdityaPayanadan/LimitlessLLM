@@ -12669,6 +12669,10 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-brand a {
+	display: block;
+}
+
+.rd-navbar-brand h1 {
 	display: inline-block;
 }
 
