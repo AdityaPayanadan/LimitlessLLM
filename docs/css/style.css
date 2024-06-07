@@ -12668,11 +12668,7 @@ html.tablet .ui-to-top {
 	transform: translateY(-18px);
 }
 
-.rd-navbar-brand a {
-	display: block;
-}
-
-.rd-navbar-brand h1 {
+.rd-navbar-brand {
 	display: inline-block;
 }
 
