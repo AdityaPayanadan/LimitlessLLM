@@ -71,14 +71,7 @@ html, body{
     padding-top: 15px;
 }
 
-.brand-logo{
-    margin-left: 25px;
-    margin-top: 5px;
-    display: inline-block;
-}
-
 .navbar-links{
-    display: inline-block;
     margin-left: 50%;
     margin-right: 50%;
     text-transform: uppercase;
@@ -274,10 +267,6 @@ li a:hover {
     
     .custom-navbar{
         text-align: center;
-    }
-    
-    .brand-logo img{
-        width: 120px;
     }
     
     .box_astronaut{
