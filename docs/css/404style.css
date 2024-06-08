@@ -69,11 +69,11 @@ html, body{
 
 .custom-navbar{
     padding-top: 15px;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 .navbar-links{
-    margin-left: 50%;
-    margin-right: 50%;
     text-transform: uppercase;
     
     
