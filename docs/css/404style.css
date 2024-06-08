@@ -79,7 +79,8 @@ html, body{
 
 .navbar-links{
     display: inline-block;
-    clear: both;
+    margin-left: 50%;
+    margin-right: 50%;
     text-transform: uppercase;
     
     
