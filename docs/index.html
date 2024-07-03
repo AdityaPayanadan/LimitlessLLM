@@ -36,7 +36,7 @@
                     <!-- RD Navbar Toggle-->
                     <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                     <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/v4.png" alt="" width="223" height="50"/></a><h2 class="brand">LimitlessLLM</h2></div>
+                    <div class="rd-navbar-brand"><a class="brand" ref="index.html"><img src="images/v4.png" alt="" width="223" height="50"/></a><h2 class="brand">LimitlessLLM</h2></div>
                   </div>
                   <div class="rd-navbar-main-element">
                     <div class="rd-navbar-nav-wrap">
@@ -630,7 +630,7 @@
               <p>If you have any questions, just fill in the contact form, and we will answer you shortly.</p>
             </div>
           </article>
-          <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+          <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" onsubmit="sendEmail(); reset(); return false;">
             <div class="row row-14 gutters-14">
               <div class="col-md-4">
                 <div class="form-wrap">
@@ -721,30 +721,30 @@
               <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
             </div>
             <div class="modal-body">
-              <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact-modal" method="post" action="bat/rd-mailform.php">
+              <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact-modal" method="post" onsubmit="sendEmail(); reset(); return false;">
                 <div class="row row-14 gutters-14">
                   <div class="col-12">
                     <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-name" type="text" name="name" data-constraints="@Required">
+                      <input class="form-input" id="contact-your-name-2" type="text" name="name" data-constraints="@Required">
                       <label class="form-label" for="contact-modal-name">Your Name</label>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-email" type="email" name="email" data-constraints="@Email @Required">
+                      <input class="form-input" id="contact-email-2" type="email" name="email" data-constraints="@Email @Required">
                       <label class="form-label" for="contact-modal-email">E-mail</label>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-phone" type="text" name="phone" data-constraints="@Numeric">
+                      <input class="form-input" id="contact-phone-2" type="text" name="phone" data-constraints="@Numeric">
                       <label class="form-label" for="contact-modal-phone">Phone</label>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-wrap">
                       <label class="form-label" for="contact-modal-message">Message</label>
-                      <textarea class="form-input textarea-lg" id="contact-modal-message" name="message" data-constraints="@Required"></textarea>
+                      <textarea class="form-input textarea-lg" id="contact-message-2" name="message" data-constraints="@Required"></textarea>
                     </div>
                   </div>
                 </div>
@@ -759,6 +759,8 @@
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="SMTPJS.COM"></script> <!-- INSERT THE CORRECT SCRIPT HERE, FROM SMTPJS.COM-->
     <script src="js/script.js"></script>
     <!-- coded by Himic-->
   </body>
