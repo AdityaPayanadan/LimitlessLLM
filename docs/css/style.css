@@ -10,7 +10,7 @@
 /*scroll references to center hrefs*/
 #servicesscr, #teamscr, #pricingscr, #contactsscr, #newsscr {
 	position: relative;
-    top: -150px;
+    /*top: -150px;*/
 }
 
 
