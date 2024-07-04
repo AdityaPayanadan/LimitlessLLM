@@ -6,6 +6,12 @@
 *
 * Contexts
 */
+
+/*scroll margin top padding*/
+#services, #team, #pricing, #contacts {
+	scroll-margin-top: 10%;
+}
+
 a:focus,
 button:focus {
 	outline: none !important;
