@@ -13,6 +13,10 @@
     top: -150px;
 }
 
+h2 {
+	position: relative;
+}
+
 a:focus,
 button:focus {
 	outline: none !important;
