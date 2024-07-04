@@ -9,7 +9,8 @@
 
 /*scroll margin top padding*/
 #services, #team, #pricing, #contacts {
-	scroll-margin-top: 10%;
+	position: relative;
+    top: -150px;
 }
 
 a:focus,
