@@ -7,15 +7,12 @@
 * Contexts
 */
 
-/*scroll margin top padding*/
-#services, #team, #pricing, #contacts {
+/*scroll references to center hrefs*/
+#servicesscr, #teamscr, #pricingscr, #contactsscr, #newsscr {
 	position: relative;
     top: -150px;
 }
 
-h2 {
-	position: relative;
-}
 
 a:focus,
 button:focus {
